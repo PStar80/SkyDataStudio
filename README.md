@@ -1,6 +1,11 @@
-# SkyData Studio
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 650px)" srcset="./assets/brand/hero-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/brand/hero-static.svg" />
+  <source media="(max-width: 650px)" srcset="./assets/brand/hero-mobile.svg" />
+  <img src="./assets/brand/hero.svg" width="100%" alt="SkyDataStudio — Data Engineering Workbench. Governed Transformations and Analytical Delivery. Data Pipelines, Transformations, Data Quality, Metadata and Lineage. Animated concept artwork, not an application screenshot." />
+</picture>
 
-> **Data Engineering Workbench** — transform trusted ingested data into governed, testable, observable analytical products.
+> Transform trusted ingested data into governed, testable, observable analytical products.
 
 SkyData Studio is the post-ingestion data engineering application in the Sky ecosystem. It begins where SkyCommand's ingestion responsibility ends and prepares trusted data for analytical consumption by SkyWeb Analytics, Power BI, and future client-facing applications.
 
